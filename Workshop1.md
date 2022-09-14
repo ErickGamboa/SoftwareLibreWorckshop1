@@ -6,4 +6,9 @@
 - Desactivar el secure boot en la maquina anfitriona
 - Ejecutar el comando -> `vagrant init debian/bullseye64`
 - Se puede realizar configuraciones personalizadas en el vagrantfile que este comando crea (Opcional)
-- 
+- En el archivo `c:\windows\system32\drivers\etc\hosts` se setea el nombre del sitio web que se va a relacionar con la Ip
+- Ejecutar el comando `ssh vagrant@hostNombre` en caso de no saber la contraseña del sistema
+-Se debe de configurar el alias en el archivo bashrc
+-Ejecutar `source .bachsrc` para que funcionen los alias
+-Ejecutar `sudo apt-get update` para ejecutar los paquetes del sistema
+-Ejecutar el comando ``para instalar elementos importantes
